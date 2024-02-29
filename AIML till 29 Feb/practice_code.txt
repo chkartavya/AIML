@@ -1,0 +1,119 @@
+Q1. What is an example of machine learning.          Ans 1. d)
+
+a) Image recognition
+b) Social media sharing
+c) Email communication
+d) Web browsing
+
+Q2. What is the propose of numpy in AI/ML.
+
+a) Web development
+b) Data manipulation and numerical operations
+c) GUI programming
+d) Text processing
+
+Q3. What is the need of Data Cleaning in pandas.
+
+a) Enhancing data complexity
+b) Improving Visualization
+c) Increasing data volume
+d) Removing unnecessary data
+
+Q4. Which is best among them to measure the central tendency of a dataset.
+
+a) Variance
+b) Standard Deviation
+c) Mean
+d) Median
+
+Q5. What is the purpose of the standard deviation in descriptive statistics?
+
+a) Measure of central tendency
+b) Measure of data spread
+c) Median value
+d) Measure of skewness
+
+Q6. What is meant by Skewness in descriptive statistics?
+
+a) Data distribution asymmetry
+b) Mean value
+c) Data variability
+d) Standard deviation
+
+Q7. What is the difference between transpose and reshape functionality?
+
+Q8. What is best suited for measuring the average value of dataset?
+
+a) Median
+b) Mean
+c) Variance 
+d) covariance
+
+Q9. How to convert the dataset form Pandas format to Numpy?
+
+a) df.value()
+b) df.numpy()
+c) df.to_convert()
+d  df.values
+
+Q10. How to remove all missing values from the dataset?
+
+a) df.drop()
+b) df.dropna(inplace = "True")
+c) df.dropna
+d) df.fillna(inplace = "True")
+
+Q11. Given a DataFrame 'df' with columns 'A' and 'B', 
+how can you select rows where the value in column 'A' is greater than 10 and 
+the value in column 'B' is less than 5?
+
+a) df[(df['A'] > 10) & (df['B'] < 5)]
+b) df.query('A > 10 and B < 5')
+c) df.loc[(df['A'] > 10) & (df['B'] < 5)]
+d) All of the above
+
+Q12. Calculate the median for the dataset: [15, 40, 30, 10, 50, 20]?
+
+Q13. For a regression model, if the (MSE) is 25,what is the (RMSE)?  
+
+Q14. Given a dataset with the values [8, 10, 12, 15, 20], 
+calculate the interquartile range (IQR).
+
+
+A = median of 8, 10
+B = median of 12, 15, 20
+
+IQR = (B - A)
+
+
+Q15. In a classification problem, 
+if a model correctly predicts 80 out of 100 instances, 
+what is its accuracy?
+
+Q16. A box contains 3 red balls and 5 green balls.
+     A second box contains 4 red balls and 6 green balls. 
+     If you randomly select one of the boxes and 
+     then randomly select a ball from that box, 
+     what is the probability of selecting a red ball?
+
+
+    P(red ball)  = P(R/I)*P(I) + P(R/II)*P(II)
+
+Q17. A matrix of [[2,5],[-1,0]] and vector [-2, 8], 
+     find the transformation in vector also plot them?
+
+
+Normal Gaussian : mean = 0
+
+Standard Normal Gaussian : mean = 0 , variance = 1
+
+
+Gaussian formula
+
+N(X/u,variance) = (1/(2TTsigma**2))*e^(-(x - u)/2sigma**2)
+
+Accuracy = (TP + TN) / (TP + TN + FP + FN)
+Precision = TP / (TP + FP)
+Recall = TP / (TP + FN)
+F1-score = 2 * (Precision * Recall) / (Precision + Recall)
+
